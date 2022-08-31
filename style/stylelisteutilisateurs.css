@@ -1,0 +1,21 @@
+.table td, th
+{
+    font-size: 1.3rem;
+}
+
+.table a
+{
+    color: #29a9d4;
+    /* color: rgb(34, 34, 34); */
+    text-decoration: none;
+    padding : 5px; border-radius:10px;
+    border: solid 2px #3d003d;
+    border-width: 2px;
+    box-shadow: 1px 1px 3px rgba(77, 77, 77, 0.472);
+}
+
+.table input
+{
+    height: 25px;
+    width: 25px;
+}

@@ -1,0 +1,231 @@
+
+/* Accueil utilisateur tom */
+body
+{
+    background-color: rgb(241, 240, 240);
+}
+
+.basic-color
+{
+    color: #33CCFF;
+}
+
+.wrapper
+{
+    margin-left: 10% ;
+    margin-right: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px grey;
+    height: 100%;
+    
+}
+
+/* fichier nav  */
+.fichiers-section nav
+{
+    height: 3rem;
+    width: 100%;
+    box-shadow: 0 2px 10px gray;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.fichiers-section nav form
+{
+    margin: 5px;
+}
+
+.wrapper form button
+{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    border: solid #0099cc 2px;
+}
+
+/* header */
+
+.wrapper header
+{
+    display: block;
+    padding: 40px;
+    padding-bottom: 50px;
+    /* border-bottom: 2px solid rgba(128, 128, 128, 0.486); */
+}
+
+header h1
+{
+    color: #1ac6ff;
+    font-size: 8vw;
+    text-align: center;
+    padding-bottom: 40px;
+    text-shadow: 2px 1px 5px gray;
+}
+
+header h3
+{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(110, 110, 110);
+}
+
+.header-btn
+{
+    background-color: #1ac6ff;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header a
+{
+    text-decoration: none;
+}
+header a:hover
+{
+    color: #0099cc;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+/* fichier section */
+
+.fichiers-section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-fichier, .card-dossier
+{
+    width: 300px;
+    height: 260px;
+    margin: 15px;
+    box-shadow: 1px 3px 10px  gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.card-dossier
+{
+    justify-content: space-around;
+}
+
+.card-fichier a
+{
+    padding: 5px;
+}
+
+.fichiers-section a
+{
+    text-decoration: none;
+}
+
+.card-fichier:hover, .card-dossier:hover
+{
+    width: 305px;
+    height: 265px;
+    background-color: white;
+}
+
+.card-fichier-text
+{
+    color: #383838;
+    padding: 1px;
+    margin: 0;
+    margin-left: 10px;
+
+}
+
+.fichier-img, .dossier-img
+{
+    margin-left: auto;
+    margin-right: auto ;
+}
+.fichier-img
+{
+    height: 50%;
+}
+.dossier-img
+{
+    height: 60%;
+}
+
+.plus
+{
+    transition: 0.3s;
+}
+
+
+.plus:hover
+{
+    transform: rotate(180deg);
+}
+
+[data-msg]
+{
+    position: relative;
+    
+}
+
+
+[data-msg]:hover::before
+{
+    display: block;
+    content: attr(data-msg);
+    color: white;
+    background-color: rgb(3, 96, 112);
+    border-radius: 15px;
+    font-size: 1rem;
+    position: absolute;
+    top: -60px;
+    left:-75%;
+    
+    width: 16rem;
+    
+    text-align: center;
+
+    opacity: 0.5;
+}
+
+.valide-btn
+{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: solid #0099cc 2px;
+}
+
+.btn-list
+{
+    color: #383838;
+    border-radius: 7px;
+    padding: 3px;
+    box-shadow: 0 0 5px gray;
+}
+
+.accueilbtn
+{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #33CCFF;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    top:  400px;
+}

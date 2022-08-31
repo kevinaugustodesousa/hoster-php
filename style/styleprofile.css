@@ -1,0 +1,39 @@
+.profil
+{
+    padding: 30px;
+    width: 100%;
+
+}
+
+.profil h2
+{
+    font-size: 3.5rem;
+}
+
+.profil p
+{
+    font-size: 1.3rem;
+    color: rgb(49, 49, 49);
+}
+#retour
+{
+    font-size: 1.6rem;
+    color: #1fb4e6;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 0 0 5px rgba(139, 139, 139, 0.582);
+    border-radius: 15px;
+}
+
+.profil a
+{
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #33CCFF;
+    padding: 7px;
+    padding-left:15px ;
+    padding-right: 15px;
+    box-shadow: 0 0 5px rgb(63, 63, 63);
+    border-radius: 10px;
+}
