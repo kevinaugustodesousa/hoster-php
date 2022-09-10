@@ -4,8 +4,8 @@ class MonPdo
 
 private static $serveur='mysql:host=localhost';
 private static $bdd='dbname=adminfichier'; 
-private static $user='root' ; 
-private static $mdp='' ;
+private static $user='??' ; #Champs utilisateur de phpmyadmin
+private static $mdp='??' ;  #Champs mot de passe de phpmyadmin
 private static $monPdo;
 private static $unPdo = null;
 
